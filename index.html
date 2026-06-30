@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Executive Lead Card</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background:#e9e9ec;
+    display:flex; align-items:center; justify-content:center;
+    min-height:100vh;
+  }
+  .card {
+    width:100%;
+    
+    background:#f5f4f7;
+    overflow:hidden;
+    box-shadow:0 10px 40px rgba(0,0,0,0.15);
+  }
+  .nav {
+    display:flex; justify-content:space-between; align-items:center;
+    padding:18px 18px 0;
+    font-size:13px; color:#222;
+  }
+  .nav .close { font-size:20px; color:#444; cursor:pointer; }
+  .nav .url { font-size:13px; letter-spacing:0.5px; color:#555; }
+  .nav .menu { font-size:18px; color:#444; }
+  .back-row { padding:14px 18px 0; display:flex; justify-content:space-between; align-items:center; }
+  .back-arrow { font-size:20px; color:#222; }
+  .logo { font-weight:800; font-size:18px; letter-spacing:1px; color:#1a1a2e; }
+
+  .label {
+    text-transform:uppercase;
+    letter-spacing:3px;
+    font-size:12px;
+    color:#6a6a78;
+    padding:30px 22px 4px;
+    font-weight:600;
+  }
+  .name {
+    font-size:42px;
+    font-weight:800;
+    line-height:1;
+    color:#111;
+    padding:4px 22px 18px;
+    letter-spacing:-1px;
+  }
+
+  .photo-wrap {
+    position:relative;
+    display:flex;
+    justify-content:center;
+    padding:6px 22px 10px;
+  }
+  .photo-wrap img {
+    width:230px;
+    height:230px;
+    object-fit:cover;
+    border-radius:50%;
+    background:#ddd;
+  }
+  .bot-btn {
+    position:absolute;
+    bottom:14px;
+    right:54px;
+    width:46px; height:46px;
+    background:#6c5dd3;
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    color:#fff; font-size:20px;
+    box-shadow:0 4px 10px rgba(108,93,211,0.4);
+  }
+
+  .role-tag {
+    text-align:center;
+    font-weight:900;
+    font-size:26px;
+    letter-spacing:1px;
+    color:#1a1a2e;
+    padding:6px 0 18px;
+  }
+
+  .years {
+    text-align:center;
+    color:#9a9aa4;
+    font-size:13px;
+    letter-spacing:2px;
+    padding:24px 0 18px;
+  }
+
+  .links { padding:0 22px 28px; }
+  .link-row {
+    display:flex; justify-content:space-between; align-items:center;
+    padding:18px 0;
+    border-bottom:1px solid #e2e1e6;
+    text-decoration:none;
+    color:#111;
+  }
+  .link-row:last-child { border-bottom:none; }
+  .link-row span.label-text {
+    font-weight:700;
+    font-size:15px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+  }
+  .link-row .arrow { font-size:18px; color:#111; }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="nav">
+    
+    
+  </div>
+  <div class="back-row">
+    <span class="back-arrow">←</span>
+    <span class="logo">IEDC</span>
+  </div>
+
+  <div class="label">CREATOR</div>
+  <div class="name">SUMIT<br>SK</div>
+
+  <div class="photo-wrap">
+    <img src="IMAGE/manishh.jpg" alt="Profile">
+    <div class="bot-btn">🤖</div>
+  </div>
+
+  <div class="role-tag">CONTENT CREATOR</div>
+
+  <div class="years">2025 – 2029</div>
+
+  <div class="links">
+    <a class="link-row" href="#">
+      <span class="label-text">LinkedIn</span>
+      <span class="arrow">↗</span>
+    </a>
+    <a class="link-row" href="https://www.instagram.com/itz_manishh_25?igsh=MWtubGd4bHB5Yzlzbg==">
+      <span class="label-text">Instagram</span>
+      <span class="arrow">↗</span>
+    </a>
+    <a class="link-row" href="#">
+      <span class="label-text">Email</span>
+      <span class="arrow">↗</span>
+    </a>
+    <a class="link-row" href="#">
+      <span class="label-text">Phone</span>
+      <span class="arrow">↗</span>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
